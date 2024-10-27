@@ -38,3 +38,5 @@ async def delete_user(user_id):
     if success:
         return jsonify({'message': 'User deleted'}), 200
     return jsonify({'error': 'User not found'}), 404
+
+

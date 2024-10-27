@@ -1,5 +1,5 @@
 from flask import Flask
-from supabase_api.api.api_bp_layer import user_api
+from supabase_api.api.user_api import user_api
 
 app = Flask(__name__)
 
